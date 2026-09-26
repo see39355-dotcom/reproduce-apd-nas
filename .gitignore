@@ -1,0 +1,26 @@
+# Python 编译缓存
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# 环境变量与敏感密钥
+.env
+.env.local
+*.key
+
+# IDE 与编辑器配置
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# 临时测试与运行日志
+*.log
+*.tmp
+.system_generated/
+
+# 操作系统临时文件
+.DS_Store
+Thumbs.db
