@@ -7,8 +7,8 @@
 
 本项目为 NeurIPS 2025 论文的完整工程复现与大模型自主进化闭环实现：
 
-> **论文名称**：[*Revolutionizing Training-Free NAS: Towards Efficient Automatic Proxy Discovery via Large Language Models*](https://neurips.cc/) (NeurIPS 2025)  
-> **论文链接**：[https://neurips.cc/](https://neurips.cc/)  
+> **论文名称**：[*Revolutionizing Training-Free NAS: Towards Efficient Automatic Proxy Discovery via Large Language Models*](https://proceedings.neurips.cc/paper_files/paper/2025/file/0f1d92d2fad704ff0bdfddd8798d5c0c-Paper-Conference.pdf) (NeurIPS 2025)  
+> **论文链接**：[NeurIPS 2025 官方论文 PDF](https://proceedings.neurips.cc/paper_files/paper/2025/file/0f1d92d2fad704ff0bdfddd8798d5c0c-Paper-Conference.pdf)  
 > **核心范式**：利用大语言模型（LLM）的推理与物理直觉，结合强化学习（RL）反馈与毫秒级沙箱环境，自动发现并进化用于神经架构搜索（NAS）的高精度零成本代理指标（ZCP）。
 
 ---
@@ -135,4 +135,4 @@ python run_real_llm_apd.py
 本项目基于以下研究工作：
 * **论文名称**：*Revolutionizing Training-Free NAS: Towards Efficient Automatic Proxy Discovery via Large Language Models*
 * **发表会议**：Advances in Neural Information Processing Systems (NeurIPS 2025)
-* **论文链接**：[NeurIPS 2025 Proceedings](https://neurips.cc/)
+* **论文链接**：[NeurIPS 2025 官方论文 PDF](https://proceedings.neurips.cc/paper_files/paper/2025/file/0f1d92d2fad704ff0bdfddd8798d5c0c-Paper-Conference.pdf)
