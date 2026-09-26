@@ -33,7 +33,7 @@
 
 ![20代收敛曲线](real_llm_evolution_curve.png)
 
-### 2. 50 个未知新架构独立泛化盲测大考
+### 2. 50 个未知新架构独立泛化盲测
 将大模型发现的冠军算法部署至 50 个从未参与进化的全新未知架构上进行机海扫描：
 * **官方真值全量盲测**：Spearman $\rho = \mathbf{0.6067}$ ($p = 0.00214 \ll 0.01$，统计学极度显著)；
 * **结构单调性检验**：评分严格随 $3 \times 3$ 核心卷积数量与参数量单调上升，无参白开水网络与纯池化网络被精准负分淘汰！
@@ -117,7 +117,7 @@ cp .env.example .env
 DEEPSEEK_API_KEY=sk-xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 ```
 
-### 3. 一键运行泛化盲测大考（几秒内出结果）
+### 3. 一键运行泛化盲测
 直接使用 GPU 评测大模型生成的冠军算法：
 ```bash
 python test_champion_generalization.py
